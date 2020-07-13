@@ -1,9 +1,10 @@
 def hello_t(array)
-  array.each do |names|
-    if array.end_with ("n")
-      puts "#{names}"
+  i = 0
+  while i < array.length
+    yield(array[i])
+    i += 1
     end
-
+array
 
 end
 
