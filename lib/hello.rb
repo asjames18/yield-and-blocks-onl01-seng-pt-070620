@@ -1,4 +1,4 @@
-`def hello_t(array)
+def hello_t(array)
 name = 0
   while name < array.length
     yield(array[name])
