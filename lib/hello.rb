@@ -7,20 +7,7 @@ name = 0
 array
 
 end
+puts "Hey! No block was given!"
 
-# hello_t(" ") do |name|
-#   if name.start_with?("T")
-#     puts "Hi, #{name}"
-#
-#   end
-# end
-
-def hello(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
   end
-  collection
 end
