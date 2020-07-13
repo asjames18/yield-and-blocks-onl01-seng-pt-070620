@@ -1,7 +1,7 @@
-def hello_t
-  name.each do |name|
+def hello_t(array)
+  hello_t.each do |names|
     if names.end_with ("n")
-      puts "#{name}"
+      puts "#{names\n}"
     end
 
 
