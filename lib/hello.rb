@@ -8,8 +8,8 @@ array
 
 end
 
-hello_t(" ") do |name|
+hello_t(" ") do |names|
   if name.start_with?("T")
-    puts "Hi, #{name}"
+    puts "Hi, #{names}"
   end
 end
