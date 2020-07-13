@@ -1,8 +1,8 @@
 def hello_t(array)
-i = 0
-  while i < array.length
+name = 0
+  while name < array.length
     yield(array[name])
-  i += 1
+  name += 1
     end
 array
 
